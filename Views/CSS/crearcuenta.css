@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(../Img/fondo/fondoEPR.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* crear cunta */
+.crearcuenta{
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.login{
+    width: 500px;
+    margin: 90px auto;
+    background-color: #1f7f92;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #edd8c1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login h1{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+label {
+    /* para que se ponga a un costadito */
+    text-align: left;
+    font-size: 18px;
+    margin-top: 10px;
+ }
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.btnLogin {
+    background-color: #bcbec0;
+    color: #0B132B;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: solid 1px #0B132B;
+    border-radius: 8px;
+    cursor: pointer;
+    transition:  0.3s ease;
+    margin: 20px auto 0 auto;
+    width: 50%;
+
+}
+
+button:hover {
+    background-color: #a6a8ab;
+}

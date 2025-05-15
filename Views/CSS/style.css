@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(../Img/fondo/fondoEPR.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Encabezado{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Vidaloka';
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+}
+
+.Glass{ 
+    background: #fafafa70;
+    height: 80px;
+    backdrop-filter: blur(.1rem);
+    -webkit-backdrop-filter: blur(.1rem);
+
+}
+
+.menu{
+    line-height: 80px;
+}
+.menu a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #252c35;
+    font-size: 18px;
+
+}
+
+
+.btn{
+    background-color: #acb5bb;
+    color: #252c35;
+    padding:  10px 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+    border-style: none;
+    font-family: 'Vidaloka';
+}
+.btn:hover{
+    background-image: url(../Img/fondo/fondoEPR.jpg);
+    color: #0B132B;
+    transition: all .5s ease-in-out;
+}
+
+
+.hero{
+    height: 350px;
+    background-color: #208298;
+    width: 80%;
+    margin: 150px auto auto auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.80);
+
+}
+
+.hero div {
+    height: 200px;
+    width: 500px;
+    margin: auto auto;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.hero h1{
+    line-height: 80px;
+    color: #edd7bc;
+    font-size: 75px;
+    animation: fadeInDown 1s ease-out;
+
+}
+.hero p{
+    font-size: 20px;
+}
+
+
+.cta-button{
+    color: #252c35;
+    line-height: 100px;
+    background-color:#acb5bb;
+    padding:  10px 30px;
+    border-radius: 20px;
+    border-style: none;
+    font-family: 'Vidaloka';
+    text-decoration: none;
+}
+
+.servicios{
+    overflow: hidden;
+    height: 400px;
+    width: 1000px;
+    margin: auto auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.about-us {
+    background-position: center center;
+    /* ajusta la calidad */
+    background-size: cover;
+    /* fija la img */
+    background-attachment: fixed;
+    /* no se repita la img */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.60);
+    overflow: hidden;
+    height: 400px;
+    background-color: #fcfbf4;
+    width: 1300px;
+    margin: 150px auto auto auto;
+    border-radius: 20px;
+}
+
+.about-us img {
+    width: 350px;
+    height: 350px;
+    border-left: 2px solid white(255, 255, 255);
+    object-fit: cover;
+    margin-right: 70px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.20);
+    
+}
+
+.about-us .content {
+    width: 50%;
+    padding: 70px;
+    text-align: left;
+    
+}
+.about-us h1 {
+    font-size: 2em;
+    color: #252c35(126, 11, 11);
+    margin-bottom: 30px;
+    font-family: 'Playfair Display';
+}
+  
+.about-us p {
+    font-size: 140%;
+    color: #208298;
+    line-height: 1.6;
+    font-family: 'Vidaloka';
+    font-weight: bold;
+}
+  /* --->redes y permisos */
+  
+footer{
+
+    background-color: #208298;
+    margin-top: 100px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+footer p{
+    font-size: 20px;
+    margin-top: 95px;
+    margin-left: 80px;
+    margin: 50px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.social img{
+    height: 55px;
+    margin-left: 20px;
+    margin-top: 90px;
+    margin: 50px;
+
+
+}
+.Derechos{
+    font-size: 20px;
+    margin: 50px;    
+
+}
+
+
+
+
