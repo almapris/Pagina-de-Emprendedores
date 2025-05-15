@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.upload-container, .feed {
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: sans-serif;
+}
+
+.upload-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f0f4f7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.upload-container input,
+.upload-container textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #3897f0;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.feed .post {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.post img {
+  width: 100%;
+  display: block;
+}
+
+.post h4, .post p, .post small {
+  padding: 10px;
+}
