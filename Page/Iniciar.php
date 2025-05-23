@@ -26,18 +26,27 @@
 
                 <a href="">¿Olvido su Contraseña?</a>
 
-                <a href="../Page/CrearCuenta.html">¿No esta registrado? crear cuenta</a>
+                <a href="../Page/CrearCuenta.php">¿No esta registrado? crear cuenta</a>
 
             </form>
-
-            <div>
+        </section>
+        <section class="about-us">
+           <div class="content">
                 <h1>Estas un paso mas cerca de hacerte conocido!</h1>
                 <a href=""><img src="../Img/Main/lupa.gif" alt=""></a>
-                <h4>Tenemos todo tipo de productos, comida para perros/gatos, pipetas, medicamentos, petshop, etc.</h4>
-
+                <h4>"Juntos creamos oportunidades que transforman vidas."</h4>
             </div>
-
         </section>
+
+        <?php
+        include("../Controller/conexion.php");
+        include("../Model/Login/Login.php");
+
+    ?>
+
+
+
+        
     </main>
     
 </body>

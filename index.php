@@ -11,8 +11,8 @@
   <header class=" Glass Encabezado">
     <nav class="menu" >
         <button class="btn" >Inicio</button>
-        <a href="Page/Emprendedor.html" >Emprendedores</a>
-        <a href="Page/Colaboradores.html"> Expectadores</a>
+        <a href="Page/Emprendedor.php" >Emprendedores</a>
+        <a href="Page/Colaboradores.php"> Espectadores</a>
 
     </nav>
 
@@ -23,9 +23,9 @@
    <section id="inicio " class="hero">
       <div>
         <h1>Pequeños Creadores  </h1>
-        <p>"Dejá tu huella en el ecosistema emprendedor.".</p>
-        <a href="Page/CrearCuenta.html" class="cta-button">Registrate</a>
-        <a href="Page/Iniciar.html" class="cta-button">Iniciar sesion</a>
+        <p>Creemos en el poder de las ideas. ¿Y tú?.</p>
+        <a href="Page/CrearCuenta.php" class="cta-button">Registrate</a>
+        <a href="Page/iniciar.php" class="cta-button">Iniciar sesion</a>
       </div>
     </section>
 

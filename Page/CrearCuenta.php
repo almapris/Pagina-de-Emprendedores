@@ -15,7 +15,7 @@
             <form action="" method="post" class="login ">
                 <h1>Crea tu Cuenta</h1>
                 <label for="">E-mail:</label>
-                <input type="text" name="E-mail" placeholder="Ingrese su E-mail:" required>
+                <input type="text" name="Email" placeholder="Ingrese su E-mail:" required>
 
                 <label for="">Usuario:</label>
                 <input type="text" name="Usuario" placeholder="Creé un Usuario:" required>
@@ -33,6 +33,12 @@
     <footer>
 
     </footer>
+
+    <?php
+        include("../Controller/conexion.php");
+        include("../Model/Login/CrearCuenta.php");
+
+    ?>
     
 </body>
 </html>

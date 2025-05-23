@@ -1,4 +1,5 @@
 <?php
-    $BDD = new mysqli("localhost","root","","")
+    $BDD = new mysqli("localhost","root","","emprededores");
+    $BDD -> set_charset("utf8");
 
 ?>
