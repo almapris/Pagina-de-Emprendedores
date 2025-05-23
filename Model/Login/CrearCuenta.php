@@ -1,4 +1,5 @@
 <?php 
+<<<<<<< HEAD
     if (!empty($_POST["CrearCuenta"])){
 
         $Email = $_POST["Email"];
@@ -18,3 +19,8 @@
     }
 
 ?>
+=======
+    
+
+?>
+>>>>>>> 9e784a202779f779904e676f2dc8114bbd0861d6
